@@ -52,13 +52,45 @@ body {
 .header__menu--profile p {
     margin: 0px;
 }
-
-
+.main {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+.main__title {
+    color: white;
+    font-size: 25px;
+}
+.input {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid white;
+    border-radius: 25px;
+    color: white;
+    font-family: 'Muly' sans-serif;
+    height: 50px;
+    width: 70vw;
+    padding: 0px 20px;
+}
+.categories__title {
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    padding-left: 30px;
+    width: 100%;
+}
 .carousel {
     width: 100%;
     overflow: scroll;
     padding: 30px;
     position: relative;
+}
+.input:focus {
+    outline: none;
+}
+::placeholder {
+    color: white;
 }
 .carousel__container {
     white-space: nowrap;
